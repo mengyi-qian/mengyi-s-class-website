@@ -1,0 +1,7 @@
+article .important {
+	color: red; /* 只匹配处于<article>元素里面的带有.important类的元素 */
+}
+
+article em {
+	color: blue; /* 匹配所有处于<article>元素里面的<em>元素，既包括<h1>元素中的，也包括<p>元素中的 */
+}
